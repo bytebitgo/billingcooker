@@ -11,7 +11,9 @@
 
 [https://bwdemo.xiangyundns.cn/master/data/month/generate?domain=img.qq.com&month=2022-02&token=339a65e93299ad8d72c42b263aa23117](生成指定时间数据)
 
+生成后，访问
 
+https://bwdemo.xiangyundns.cn/
 
 ![](https://raw.githubusercontent.com/bytebitgo/billingcooker/main/demo.png)
 
