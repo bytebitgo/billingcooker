@@ -1,0 +1,21 @@
+domain: # 域名配置
+  img.qq.com: # 域名名称 (唯一)
+    rule: 'common_month' # 引用 月 规则
+    bandwidth: 3770000000000 # 期望计费带宽
+    token: "339a65e93299ad8d72c42b263aa23117"
+    start_time: "2022-02-01T12:00:00" # user api 能访问到计费的起始点
+    acl: ["1.1.1.1/24", "2.2.2.2/32"] # acl 掩码方式
+
+http_api:
+  listen: ':7700'
+
+storage:
+  addr: "127.0.0.1:6379" # redis 地址
+  pass: "billingcooker" # redis 密码
+  max_retry: 2 # redis 尝试次数
+
+common:
+  hostname: "fakegslb" # 机器名
+  alarm: "https://dingding.com/robot/001" # 钉钉机器人
+  master_token: "339a65e93299ad8d72c42b263aa23117" # 访问master api所需的token，默认 339a65e93299ad8d72c42b263aa23117
+  acl: ["1.1.1.1/24", "2.2.2.2/32"] # acl 掩码方式； master api 以及www目录访问的acl
