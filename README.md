@@ -6,7 +6,12 @@
 
 ### 在线DEMO
 
-https://bwdemo.xiangyundns.cn/
+**<mark>生成当前数据，请粘到浏览器中执行（把month=2022-02 替换为当前月份）</mark>**
+
+
+[https://bwdemo.xiangyundns.cn/master/data/month/generate?domain=img.qq.com&month=2022-02&token=339a65e93299ad8d72c42b263aa23117](生成指定时间数据)
+
+
 
 ![](https://raw.githubusercontent.com/bytebitgo/billingcooker/main/demo.png)
 
