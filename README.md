@@ -5,9 +5,10 @@
 ### 由于一些特定场景和需求，需要给出对应域名计费带宽数据，比如第4峰值 或95计费的截图，或给对应一些客户基于域名API 的带宽数据。
 
 ### 在线DEMO
-```
-https://bwdemo.xiangyundns.cn
-```
+
+https://bwdemo.xiangyundns.cn/
+
+![](https://raw.githubusercontent.com/bytebitgo/billingcooker/main/demo.png)
 
 ## http api (客户使用)
 
